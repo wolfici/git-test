@@ -1,24 +1,21 @@
 {
-  "name": "git-test",
+  "name": "nucampsite",
   "version": "1.0.0",
-  "description": "Git and NPM",
+  "description": "This is a website for the fictional campsite review site Nucamp",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wolfici/git-test.git"
-  },
-  "author": "",
+  "author": "Cristian Lungu",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wolfici/git-test/issues"
-  },
-  "homepage": "https://github.com/wolfici/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
